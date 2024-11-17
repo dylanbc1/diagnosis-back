@@ -18,7 +18,7 @@ async function bootstrap() {
     );
 
     const corsOptions: CorsOptions = {
-      origin: '*', // Permite solicitudes desde este origen
+      origin: 'https://diagnosis-front-888.vercel.app', // Permite solicitudes desde este origen
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Métodos permitidos
       credentials: true, // Permitir el uso de cookies
       allowedHeaders: 'Content-Type, Accept, Authorization', // Encabezados permitidos
